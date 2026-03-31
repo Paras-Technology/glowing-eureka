@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Trading Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>My Trading Website</h1>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Balance</h2>
+      <p id="balance">$10,000</p>
+    </div>
+
+    <div class="card">
+      <h2>Buy/Sell</h2>
+      <input type="number" id="amount" placeholder="Enter amount">
+      <button onclick="buy()">Buy</button>
+      <button onclick="sell()">Sell</button>
+    </div>
+
+    <div class="card">
+      <h2>Trade History</h2>
+      <ul id="history"></ul>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
